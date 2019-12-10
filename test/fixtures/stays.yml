@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  slug: MyString
+  description: MyText
+  location: MyText
+  price_per_night: 
+  price_per_night: 
+  image: MyString
+  image_thumbnail: MyString
+  max_guests: 1
+  pet_friendly: false
+  pool: false
+  wifi: false
+
+two:
+  name: MyString
+  slug: MyString
+  description: MyText
+  location: MyText
+  price_per_night: 
+  price_per_night: 
+  image: MyString
+  image_thumbnail: MyString
+  max_guests: 1
+  pet_friendly: false
+  pool: false
+  wifi: false

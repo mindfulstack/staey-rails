@@ -1,0 +1,15 @@
+<h1>Getting hang of erb</h1>
+which is a lot like good 'ol
+
+<%= 1+1 %>
+
+<% (0..5).each do |i| %>
+    <%= "#{i}, " %>
+<% end %>
+
+<%= @current_time %>
+<p>
+<b>Rating:</b> <%= render_stars(3) %>
+</p>
+
+<%= render "shared/footer" %>
