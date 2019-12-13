@@ -1,0 +1,11 @@
+<h1>All the stays!</h1>
+<ul>
+<% @stays.each do |stay| %>
+    <li><%= link_to stay.name, stay %> <p>
+<%= link_to 'Edit', edit_stay_path(stay) %> <%= link_to 'Destroy', stay, method: :delete,
+data: { confirm: 'Are you sure?' } %> </p></li>
+<% end %>
+
+</ul>
+
+<%= render "shared/footer" %>
